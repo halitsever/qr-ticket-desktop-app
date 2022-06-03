@@ -1,0 +1,20 @@
+{
+  "name": "qr-conference-system",
+  "version": "1.0.0",
+  "description": "QR code scanning system used at TechnoZ event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "nodemon electron ."
+  },
+  "author": "Halit Sever",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.2.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "xlsx": "^0.18.5"
+  }
+}
