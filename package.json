@@ -1,10 +1,11 @@
 {
-  "name": "geforce-now-linux",
+  "name": "qr-conference-system",
   "version": "1.0.0",
-  "description": "Unofficial geforce now client for linux",
+  "description": "QR code scanning system used at TechnoZ event",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
     "dev": "nodemon electron ."
   },
   "author": "Halit Sever",
