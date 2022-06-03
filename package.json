@@ -1,0 +1,19 @@
+{
+  "name": "geforce-now-linux",
+  "version": "1.0.0",
+  "description": "Unofficial geforce now client for linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon electron ."
+  },
+  "author": "Halit Sever",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.2.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "xlsx": "^0.18.5"
+  }
+}
