@@ -1,7 +1,7 @@
 <h1>QR Conference System</h1>
 <img align="right" width="250" height="400" src="https://i.ibb.co/bQChvMy/Ekran-g-r-nt-s-2022-06-04-011948-1.png">
 <p align="left"> 
-  QR code scanning system used at <a href="https://www.linkedin.com/events/technoz6935059638434308097/">Techno Z</a> event
+  Desktop app for qr code scanning used at <a href="https://www.linkedin.com/events/technoz6935059638434308097/">Techno Z</a> summit
 </p>
 <h1>Debugging</h1>
 Debug: npm run start<br>
