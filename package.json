@@ -1,11 +1,11 @@
 {
   "name": "qr-conference-system",
-  "version": "1.0.0",
-  "description": "QR code scanning system used at TechnoZ event",
+  "version": "1.0.1",
+  "description": "QR code scanning system with electron.js used at TechnoZ event",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
+    "test": "jest",
+    "start": "electron ./src/.",
     "dev": "nodemon electron ."
   },
   "author": "Halit Sever",
@@ -14,6 +14,8 @@
     "electron": "^18.2.4"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "jest": "^28.1.1",
     "nodemon": "^2.0.16",
     "xlsx": "^0.18.5"
   }
